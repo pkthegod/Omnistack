@@ -13,5 +13,7 @@
   },
   "devDependencies": {
     "nodemon": "^1.18.11"
-  }
+  },
+  "repository": "https://github.com/pkthegod/Omnistack.git",
+  "author": "pkthegod <pkthegod@users.noreply.github.com>"
 }
