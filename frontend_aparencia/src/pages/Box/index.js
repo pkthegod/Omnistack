@@ -27,9 +27,11 @@ export default class Box extends Component {
     io.emit('connectRoom', box);
 
     io.on('file', data => {
-      console.log(data);
+      this.setState({ 
+        box: { ...this.state.box, files: [data, ...this.state.box.files] }
+      });
     });
-  }
+  };
 
   handledUpload = files => {
     files.forEach(file => {
