@@ -1,5 +1,11 @@
 {
   "dependencies": {
     "axios": "^0.18.0"
-  }
+  },
+  "name": "Omnistack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/pkthegod/Omnistack.git",
+  "author": "pkthegod <pkthegod@users.noreply.github.com>",
+  "license": "MIT"
 }
